@@ -1,0 +1,170 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: hsl(90, 8%, 85%);
+    color-adjust: exact;
+}
+
+/* changed the .header class to header semantic html tag to correpond to the html changes we made to meet client requirments */
+
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: hsl(200, 61%, 28%);
+    color: hsl(0, 0%, 100%);
+    display: block;
+    font-size: 48px;
+    color-adjust: exact;
+}
+
+h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/* changed the selector to the type instead of the head hi .seo path to correpond to the changes in the html page*/
+
+header h1 mark {
+    color: hsl(90, 8%, 85%);
+    background-color: hsl(200, 61%, 28%);;
+}
+
+/* Changed the div inside the head to nav to meet customer req */
+
+header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+header div ul {
+    list-style-type: none;
+}
+
+/* added this to the list items to enhance accessbility */
+
+header ul li:before {
+    content: "\200B";
+    /* add zero-width space */
+}
+
+/* Changed the div inside the head to nav to meet customer req */
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+}
+
+/* changed the selector to figure instead of .hero to correpond to the change in the html*/
+
+figure {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* changed the position of the selector within the page to be aligned with the html */
+
+p {
+    font-size: 16px;
+}
+
+/* changed the position of the selector within the page to be aligned with the html */
+
+main {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* changed all the classes name within this section to unify one class for all, since they have the sam styling properties */
+
+.artnar {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: hsl(203, 100%, 37%);
+    color: hsl(0, 0%, 100%);
+}
+
+/* changed the parent class selector to match the correponding html */
+
+.artnar img {
+    max-height: 200px;
+}
+
+/* changed the parent class selector to match the correponding html */
+
+.artnar h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* changed the selector to match the correponding html */
+
+aside {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/* changed the parent class selector to match the correponding html */
+
+.asidenar {
+    margin-bottom: 32px;
+    color: hsl(0, 0%, 100%);
+}
+
+.asidenar h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.asidenar img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* changed the selector to match the correponding html */
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+/* changed the parent class selector to match the correponding html */
+footer h4 {
+    font-size: 20px;
+}
